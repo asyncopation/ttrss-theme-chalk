@@ -1,44 +1,3 @@
-@font-face {
-    font-family: 'TeXGyreHerosCn';
-    src: url('feedly/fonts/texgyreheroscn-regular-webfont.eot');
-    src: url('feedly/fonts/texgyreheroscn-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('feedly/fonts/texgyreheroscn-regular-webfont.woff') format('woff'),
-         url('feedly/fonts/texgyreheroscn-regular-webfont.ttf') format('truetype'),
-         url('feedly/fonts/texgyreheroscn-regular-webfont.svg#TeXGyreHerosCnRegular') format('svg');
-}
-
-@font-face {
-    font-family: 'TeXGyreHerosCn';
-    src: url('feedly/fonts/texgyreheroscn-bold-webfont.eot');
-    src: url('feedly/fonts/texgyreheroscn-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('feedly/fonts/texgyreheroscn-bold-webfont.woff') format('woff'),
-         url('feedly/fonts/texgyreheroscn-bold-webfont.ttf') format('truetype'),
-         url('feedly/fonts/texgyreheroscn-bold-webfont.svg#TeXGyreHerosCnBold') format('svg');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'TeXGyreHerosCn';
-    src: url('feedly/fonts/texgyreheroscn-italic-webfont.eot');
-    src: url('feedly/fonts/texgyreheroscn-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('feedly/fonts/texgyreheroscn-italic-webfont.woff') format('woff'),
-         url('feedly/fonts/texgyreheroscn-italic-webfont.ttf') format('truetype'),
-         url('feedly/fonts/texgyreheroscn-italic-webfont.svg#TeXGyreHerosCnItalic') format('svg');
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'TeXGyreHerosCn';
-    src: url('feedly/fonts/texgyreheroscn-bolditalic-webfont.eot');
-    src: url('feedly/fonts/texgyreheroscn-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('feedly/fonts/texgyreheroscn-bolditalic-webfont.woff') format('woff'),
-         url('feedly/fonts/texgyreheroscn-bolditalic-webfont.ttf') format('truetype'),
-         url('feedly/fonts/texgyreheroscn-bolditalic-webfont.svg#TeXGyreHerosCnBoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-
 /* FROM TT-RSS.CSS ************************************************************/
 
 /* @66 */
@@ -781,8 +740,7 @@ a:hover {
 }
 #feeds-holder .dijitTreeExpando {
 	margin: -1px 0 1px 5px;
-	background-image: url("feedly/icons.png");
-	background-size: 36px 16px;
+	background: url("chalk_images/chevron-right.png") no-repeat;
 	opacity: .2;
 	-webkit-transition: opacity .2s;
 	transition: opacity .2s;
@@ -791,10 +749,9 @@ a:hover {
 	opacity: .75;
 }
 #feeds-holder .dijitTreeExpandoClosed {
-	background-position: 1px 0;
 }
 #feeds-holder .dijitTreeExpandoOpened {
-	background-position: -17px 0;
+  background: url('chalk_images/chevron-down.png') no-repeat;
 }
 #feeds-holder .dijitFolderClosed,
 #feeds-holder .dijitFolderOpened,
@@ -1273,7 +1230,7 @@ div.articleNote {
 .postContent h6 {
 	margin-top: 35px;
 	margin-bottom: 14px;
-	font-family: "TeXGyreHerosCn", "Arial Narrow", "Liberation Sans Narrow", Arial, Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -1340,7 +1297,7 @@ div.articleNote {
 	padding: 0 12px 0 7px;
 }
 .cdmFeedTitle .title {
-	font: normal normal bold 18px/24px "TeXGyreHerosCn", "Arial Narrow", "Liberation Sans Narrow", Arial, Helvetica, sans-serif;
+	font: normal normal bold 18px/24px Helvetica, sans-serif;
 	padding-right: 7px;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
