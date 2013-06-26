@@ -740,7 +740,7 @@ a:hover {
 }
 #feeds-holder .dijitTreeExpando {
 	margin: -1px 0 1px 5px;
-	background: url("chalk_images/chevron-right.png") no-repeat;
+	background: url("chalk_images/angle-right.png") no-repeat;
 	opacity: .2;
 	-webkit-transition: opacity .2s;
 	transition: opacity .2s;
@@ -751,7 +751,7 @@ a:hover {
 #feeds-holder .dijitTreeExpandoClosed {
 }
 #feeds-holder .dijitTreeExpandoOpened {
-  background: url('chalk_images/chevron-down.png') no-repeat;
+  background: url('chalk_images/angle-down.png') no-repeat;
 }
 #feeds-holder .dijitFolderClosed,
 #feeds-holder .dijitFolderOpened,
