@@ -3,6 +3,10 @@ ttrss-theme-chalk
 
 A simplistic theme for the tt-rss reader based off of the work by [levito](https://github.com/levito/tt-rss-feedly-theme). 
 
+Prerequisites
+
+* ttrss version 1.8 or higher
+
 Screenshot
 
 ![screenshot](screenshot/theme-ss.png)
