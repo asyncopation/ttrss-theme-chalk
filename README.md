@@ -1,15 +1,12 @@
 ttrss-theme-chalk 
 ================= 
 
-** Updates for v1.12 **
+** For Legacy Versions **
 
-TT-RSS changed a few things that broke this theme in recent versions (currently on v1.12.1).  That's been corrected now along with a few minor changes to the theme.  If you're still using ttrss version 1.8 you can checkout the tag "ttrss-v1.8".
+Sometimes the TT-RSS maintainer makes changes that break theme compatability.  Use the following tags if you're still using an old version of ttrss.
 
-* Fixes broken icons
-* Brings back the sidebar collapse control
-* Removes the floating title
-* Changed styling for main toolbar above articles
-* Screenshot updated
+* ttrss version 1.8-1.11 use tag "ttrss-v1.8"
+* ttrss version 1.12-1.15.2 use tag "ttrss-v1.12"
 
 ---------------------
 
