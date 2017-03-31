@@ -29,7 +29,6 @@ div.articleNote div.noteEdit {
   color: #ffffff;
   border-radius: 6px;
   position: fixed;
-  font-size: 12px;
   z-index: 99;
   max-width: 350px;
   min-width: 100px;
@@ -106,7 +105,6 @@ div.notice, div.warning, div.error {
   padding : 4px 10px 4px 4px;
   display : inline-block;
   margin : 2px 0px 4px 0px;
-  font-size : 12px;
   border-style : solid;
   border-color : #ccc;
   border-radius : 4px;
@@ -202,7 +200,6 @@ span.subscribers {
 
 div.subscribers {
   color : #808080;
-  font-size : 12px;
   float : right;
 }
 
@@ -228,7 +225,6 @@ ul.compact li {
 
 /* @611 */
 div.dlgSec {
-  font-size : 12px;
   color : #555;
   font-weight : bold;
   clear : both;
@@ -240,13 +236,11 @@ div.dlgSecCont {
   left : 150px;
   top : -20px;
   float : left;
-  font-size : 12px;
   font-weight : normal;
 }
 
 div.dlgSecCont hr {
   height : 0px;
-  line-height : 0px;
   border : 0px solid transparent;
   margin : 2px;
 }
@@ -338,7 +332,7 @@ select.attachments {
 /* RESET ************************************************************/
 
 html {
-  font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 :focus {
   outline: none;
@@ -535,8 +529,7 @@ a:hover {
   top: 1px;
   right: 10px;
   background: none;
-  font-size: 22px;
-  line-height: 1;
+  font-size: 1.4em;
   font-weight: normal;
   text-align: right;
   color: #999;
@@ -631,16 +624,14 @@ a:hover {
   width: 13px;
   height: 13px;
   border: 1px solid rgba(0,0,0,.3);
-  font-size: 10px;
-  line-height: 1;
+  font-size: 0.8em;
   text-align: center;
 }
 .hlLabelRef {
   margin-right: 5px;
   border: 1px solid rgba(0,0,0,.12);
   padding: 0 3px;
-  font-size: 9px;
-  line-height: 11px;
+  font-size: 0.8em;
 }
 .author:not(:empty) + span .hlLabelRef:first-child {
   margin-left: 5px;
@@ -751,7 +742,7 @@ a:hover {
   margin: 0 5px;
   float: right;
   padding: 1px 5px 0 5px;
-  font-size: 11px;
+  font-size: 0.8em;
   color: #999;
   -webkit-transition: color .2s;
   transition: color .2s;
@@ -834,7 +825,7 @@ a:hover {
 #feed_title,
 #floatingTitle .title,
 .postHeader .postTitle a  {
-  font: normal normal bold 16px/16px Helvetica, sans-serif;
+  font-size: 1.4em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -982,7 +973,7 @@ a:hover {
 }
 .cdm.expandable.active .cdmHeader,
 .cdm.expanded .cdmHeader {
-  padding: 54px 34px 0;
+  padding: 30px 30px 15px;
 }
 .cdm.expandable.active .cdmFooter,
 .cdm.expanded .cdmFooter {
@@ -996,33 +987,20 @@ a:hover {
 .cdm.expanded .title {
   display: block;
   margin-bottom: 5px;
-  font: normal normal bold 28px/33px Helvetica, sans-serif;
+  font-size: 2em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
-.cdm.expandable.active .cdmHeader > div:first-child,
-.cdm.expandable.active .cdmHeader .hlFeed,
-.cdm.expandable.active .cdmHeader .updated,
-.cdm.expandable.active .cdmHeader .scoreWrap,
-.cdm.expanded .cdmHeader > div:first-child,
-.cdm.expanded .cdmHeader .hlFeed,
-.cdm.expanded .cdmHeader .updated,
-.cdm.expanded .cdmHeader .scoreWrap {
-  position: absolute;
-  top: 34px;
-  padding: 0;
-}
-.cdm.expandable.active .cdmHeader > div:first-child,
-.cdm.expanded .cdmHeader > div:first-child {
-  left: 34px;
-}
+
 .cdm.expandable.active .cdmHeader .hlFeed,
 .cdm.expanded .cdmHeader .hlFeed {
   left: 80px;
 }
 .cdm.expandable.active .cdmHeader .updated,
 .cdm.expanded .cdmHeader .updated {
+  position: absolute;
   right: 80px;
+  top: 30px;
 }
 .cdm.expandable.active .cdmHeader .scoreWrap,
 .cdm.expanded .cdmHeader .scoreWrap {
@@ -1054,13 +1032,11 @@ div.articleNote {
 }
 .cdm .title,
 .hlTitle {
-  font-size: 13px;
   font-weight: bold;
 }
 .cdm .cdmExcerpt,
 .cdm.expandable .author,
 .hlTitle .contentPreview {
-  font-size: 11px;
   font-weight: normal;
 }
 .cdm .title,
@@ -1123,14 +1099,11 @@ div.articleNote {
 .hl .hlTitle,
 #floatingTitle .titleWrap {
   width: 100%;
-  line-height: 16px;
 }
 .cdmHeader .updated,
 .cdmHeader .hlFeed,
 .hlUpdated,
 #floatingTitle .updated {
-  font-size: 11px;
-  line-height: 18px;
 }
 .cdmHeader .hlFeed a {
   display: inline-block;
@@ -1138,7 +1111,6 @@ div.articleNote {
   border-radius: 3px;
   background: rgba(0,0,0,.1);
   color: #444;
-  line-height: 1;
 }
 .cdmContentInner {
   padding: 10px 34px;
@@ -1151,7 +1123,6 @@ div.articleNote {
 .postHeader {
   background: #f5f5f5;
   border-bottom: 1px solid #eee;
-  font-size: 11px;
   color: #999;
 }
 .postHeader .postDate {
@@ -1166,6 +1137,7 @@ div.articleNote {
 .cdmFooter {
   clear: both;
   padding: 5px;
+  font-variant: small-caps;
 }
 .collapseBtn {
   position: absolute;
@@ -1173,8 +1145,6 @@ div.articleNote {
   right: 0;
   left: 0;
   padding: 6px 7px 7px;
-  font-size: 11px;
-  line-height: 8px;
   text-align: right;
   vertical-align: top;
   color: transparent;
@@ -1246,8 +1216,6 @@ div.articleNote {
 .postContent {
   clear: both;
   overflow: auto;
-  font-size: 14px;
-  line-height: 1.7;
 }
 .cdmContentInner h1,
 .postContent h1,
@@ -1263,7 +1231,6 @@ div.articleNote {
 .postContent h6 {
   margin-top: 35px;
   margin-bottom: 14px;
-  font-family: Helvetica, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -1286,7 +1253,6 @@ div.articleNote {
 .cdmContentInner figure,
 .postContent figure {
   margin: 1em 0;
-  font-size: 12px;
   font-style: italic;
 }
 .cdmContentInner pre,
@@ -1330,7 +1296,7 @@ div.articleNote {
   padding: 0 12px 0 7px;
 }
 .cdmFeedTitle .title {
-  font: normal normal bold 18px/24px Helvetica, sans-serif;
+  font-size: 1.4em;
   padding-right: 7px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -1410,7 +1376,6 @@ div#feedlistLoading img, div#filterlistLoading img, div#labellistLoading {
 
 /* 101 */
 table.prefErrorLog tr.errrow td {
-  font-size : 10px;
 }
 
 table.prefErrorLog tr.errrow td.errno {
@@ -1462,7 +1427,6 @@ table.prefErrorLog td.filename, table.prefErrorLog td.login, table.prefErrorLog 
 #ttrssPrefs .feedParam,
 #ttrssPrefs .labelParam,
 #ttrssPrefs .prefHelp {
-  font-size: 11px;
   color: #999;
 }
 #ttrssPrefs .feedParam,
@@ -1665,7 +1629,6 @@ input[type="checkbox"]:checked:before {
   content: '\2713';
   -webkit-margin-start: 0;
   margin-left: 2px;
-  font-size: 0.9em;
 }
 
 /* disabled input */
@@ -1682,3 +1645,21 @@ input:disabled + label {
   cursor:default;
   -webkit-user-select: none;
 }
+
+/* ****** */
+/* BROKKR */
+/* ****** */
+
+.scoreWrap {display: none;}
+.tagsPic {display: none;}
+.author {display: none;}
+#headlines-toolbar {display: none;}
+
+.cdm.expanded .cdmHeader > div:first-child {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+
+
